@@ -31,11 +31,12 @@ Microsoft Azure
 
 ## Step 1: Verify Active Directory
 
-I verified that my existing Active Directory domain, `davidlab.local`, was operational and contained the Organizational Units and user accounts created in my previous lab.
+I verified that my existing Active Directory domain, `mydomain.com`, was operational and contained the Organizational Units and user accounts created in my previous lab.
 
-**Screenshot:**
 
-<!-- Insert Active Directory screenshot here -->
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 6 19 52 PM" src="https://github.com/user-attachments/assets/bfa20460-d510-4ea3-9071-bb0a26bfccdd" />
+
+
 
 ## Step 2: Create a Control Panel Restriction GPO
 
@@ -53,9 +54,7 @@ User Configuration
 
 I tested the restriction using my Windows 10 domain user account.
 
-**Screenshot:**
-
-<!-- Insert Control Panel restriction screenshot here -->
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 6 29 49 PM" src="https://github.com/user-attachments/assets/045a4910-c58e-4a2e-a7ed-29abf23ea3f7" />
 
 ## Step 3: Configure an Automatic Screen Lock Policy
 
@@ -70,9 +69,8 @@ Configured settings:
 
 These settings require users to authenticate when returning from the screen saver.
 
-**Screenshot:**
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 6 34 16 PM" src="https://github.com/user-attachments/assets/fcfc83f9-7d95-4095-96d5-06af70207b47" />
 
-<!-- Insert screen saver GPO screenshot here -->
 
 ## Step 4: Configure Domain Password Policy
 
