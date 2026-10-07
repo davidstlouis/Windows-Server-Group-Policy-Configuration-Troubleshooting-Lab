@@ -70,6 +70,7 @@ Configured settings:
 These settings require users to authenticate when returning from the screen saver.
 
 <img width="1470" height="956" alt="Screenshot 2026-10-07 at 6 34 16 PM" src="https://github.com/user-attachments/assets/fcfc83f9-7d95-4095-96d5-06af70207b47" />
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 6 56 03 PM" src="https://github.com/user-attachments/assets/822b0ba1-ca85-49a2-99d3-86e25572106a" />
 
 
 ## Step 4: Configure Domain Password Policy
@@ -82,9 +83,9 @@ Using the Default Domain Policy, I configured password security requirements.
 | Password complexity | Enabled |
 | Password history | 5 passwords |
 
-**Screenshot:**
 
-<!-- Insert password policy screenshot here -->
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 7 03 05 PM" src="https://github.com/user-attachments/assets/76aaea0f-a838-45d6-bf4f-a072115d1ff2" />
+
 
 ## Step 5: Verify Group Policy Application
 
@@ -100,17 +101,10 @@ I verified the applied policies using:
 gpresult /r
 ```
 
-I also generated an HTML report:
-
-```cmd
-gpresult /h "%USERPROFILE%\Desktop\GPO-Report.html" /f
-```
-
 This allowed me to confirm that the configured policies were being applied to the appropriate domain user.
 
-**Screenshot:**
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 7 05 43 PM" src="https://github.com/user-attachments/assets/eb2a67dc-9ca3-462b-a06a-ac76f0f8b07a" />
 
-<!-- Insert gpresult screenshot here -->
 
 ## Step 6: Group Policy Troubleshooting
 
@@ -125,9 +119,13 @@ gpresult /r
 
 After identifying the disabled GPO link, I re-enabled it and verified that the Control Panel restriction was restored.
 
-**Screenshot:**
 
-<!-- Insert troubleshooting screenshot here -->
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 7 12 18 PM" src="https://github.com/user-attachments/assets/08847e06-2297-4fb0-88a9-19fb0ae51432" />
+
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 7 12 33 PM" src="https://github.com/user-attachments/assets/137d578f-3f92-4360-b07e-a89fa01b9d5e" />
+
+<img width="1470" height="956" alt="Screenshot 2026-10-07 at 7 13 59 PM" src="https://github.com/user-attachments/assets/526eb6e8-aec5-44e9-a76c-15d89a9861b3" />
+
 
 ## Skills Demonstrated
 
@@ -142,15 +140,4 @@ After identifying the disabled GPO link, I re-enabled it and verified that the C
 - `gpupdate` and `gpresult`
 - Microsoft Azure
 
-## What I Learned
 
-This lab helped me understand how organizations use Group Policy to centrally manage Windows computers and user settings.
-
-I gained practical experience creating and linking GPOs, enforcing security restrictions, verifying policy application, and troubleshooting Group Policy issues.
-
-## Author
-
-**David Saint Louis**  
-Information Technology / Cybersecurity
-
-[LinkedIn](https://www.linkedin.com/in/david-saint-louis-)
